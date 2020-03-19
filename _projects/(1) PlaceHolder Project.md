@@ -1,8 +1,6 @@
 ---
 name: Test
-tools:
-  - cool
-  - genial
+tools: '[ "cool", "genial" ]'
 image: ''
 description: tes
 external_url: ''
