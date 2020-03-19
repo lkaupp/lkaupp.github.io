@@ -1,0 +1,67 @@
+- name: Angular JS & Angular 2
+  percentage: 100
+  color: success
+
+- name: Spring / Spring Boot / Lombok
+  percentage: 100
+  color: success
+
+- name: Tensorflow / Keras
+  percentage: 100
+  color: success
+
+- name: Express
+  percentage: 75
+  color: warning
+  
+- name: Laravel
+  percentage: 95
+  color: info
+
+- name: Django
+  percentage: 90
+  color: info
+  
+- name: OR-Mapper Hibernate / Doctrine
+  percentage: 100
+  color: success
+  
+- name: Cordova / Ionic 
+  percentage: 100
+  color: success
+
+- name: Electron
+  percentage: 80
+  color: info
+  
+- name: MongoDB / MariaDB
+  percentage: 100
+  color: success
+  
+- name: MySQL / Postgres / MSSQL
+  percentage: 100
+  color: success
+  
+- name: InfluxDB (Time-Series Database)
+  percentage: 75
+  color: warning
+
+- name: Apache Cassandra
+  percentage: 50
+  color: warning
+
+- name: Apache Kafka
+  percentage: 100
+  color: success
+  
+- name: Apache Flink
+  percentage: 100
+  color: success
+
+- name: Hadoop / Spark / Pig / Hive
+  percentage: 65
+  color: warning
+
+- name: Bootstrap / Angular Material
+  percentage: 100
+  color: success

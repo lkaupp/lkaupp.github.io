@@ -1,0 +1,31 @@
+- name: HTML5/CSS3
+  percentage: 100
+  color: success
+  
+- name: Javascript/Typescript
+  percentage: 100
+  color: success
+
+- name: Java
+  percentage: 100
+  color: success
+
+- name: Python
+  percentage: 90
+  color: info
+  
+- name: Node
+  percentage: 85
+  color: info
+
+- name: PHP
+  percentage: 90
+  color: info
+  
+- name: Go
+  percentage: 20
+  color: danger
+
+- name: C/C#/C++
+  percentage: 75
+  color: warning

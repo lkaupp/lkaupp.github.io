@@ -1,0 +1,83 @@
+### Site Settings ###
+title               : Kaupp Research
+description         : >-
+  Lukas Kaupp is the coordinator of the research center of applied informatics at Hochschule Darmstadt - University of Applied Sciences. 
+  Lately, he joined the Human-Computer Interaction & Visual Analytics Research Group. 
+  His current research topics are intelligent (cognitive) cyber-physical systems, artificial intelligence and pattern recognition in sensor networks for industry 4.0.
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : lkaupp/lkaupp.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : lkaupp/github-io-theme
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  - documentation/partials/**                           # For Documentation Only
+
+
+### Author Info ###
+author:
+  name              : Lukas Kaupp
+  image             : https://scontent.ffra2-1.fna.fbcdn.net/v/t1.0-9/39087589_10209895831190851_7168849855010308096_o.jpg?_nc_cat=107&_nc_sid=85a577&_nc_ohc=aD9V2gMmBHQAX-vKaAm&_nc_ht=scontent.ffra2-1.fna&oh=518c98396041a1ab0596c2a91f479131&oe=5E9AC15F
+#  behance           : your_username
+# dribbble          : your_username
+  email             : lukas.kaupp@h-da.de
+#  facebook          : your_username
+  github            : lkaupp
+# gitlab            : your_username
+# instagram         : your_username
+#  linkedin          : your_username
+#  medium            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+#  twitter           : your_username
+# vimeo             : your_username
+# youtube           : your_channel_name
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+#  elements:                                             # For Documentation Only
+#    output: true                                        # For Documentation Only
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+#  - scope:                                              # For Documentation Only
+#      path: ""                                          # For Documentation Only
+#      type: "elements"                                  # For Documentation Only
+#    values:                                             # For Documentation Only
+#      layout: "element"                                 # For Documentation Only
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*portfolYou*"
+  - "*.log"
+
+
