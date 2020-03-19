@@ -1,8 +1,6 @@
 ---
 title: test
-tags:
-  - cct
-  - Git
+tags: '[ "cct", "Git" ]'
 style: fill
 color: info
 description: what to do
