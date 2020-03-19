@@ -4,15 +4,26 @@ backend:
   name: github
   repo: lkaupp/lkaupp.github.io
   branch: master # Branch to update (optional; defaults to master)
-  auth_type: implicit
-  api_root: https://api.github.com
-  base_url: https://api.github.com
-  auth_endpoint: oauth/authorize
-  site_domain: lkaupp.github.io
 media_folder: 'assets/uploads'
 collections:
   - name: 'blog'
     label: 'Blog'
-    folder: '_posts/'
+    folder: '_posts'
     fields:
-      - { name: Title }
+     - {label: "Title", name: "name", widget: "string"}
+     - {label: "Tags", name: "tags", widget: "list"}
+     - {label: "Style", name: "style", widget: "string"}
+     - {label: "Color", name: "color", widget: "string"}
+     - {label: "Text", name: "body", widget: "markdown"}
+     - {label: "Description", name: "description", widget: "text"}
+     - {label: "External URL", name: "external_url", widget: "string"}
+  - name: projects
+    label: 'Projects'
+    folder: '_projects'
+    fields:
+      - {label: "Title", name: "name", widget: "string"}
+      - {label: "Tags", name: "tools", widget: "list"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Text", name: "body", widget: "markdown"}
+      - {label: "External URL", name: "external_url", widget: "string"}
