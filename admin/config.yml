@@ -4,6 +4,10 @@ backend:
   name: github
   repo: lkaupp/lkaupp.github.io
   branch: master # Branch to update (optional; defaults to master)
+  auth_type: implicit
+  api_root: https://api.github.com
+  base_url: https://api.github.com
+  auth_endpoint: oauth/authorize
   site_domain: lkaupp.github.io
 media_folder: 'assets/uploads'
 collections:
