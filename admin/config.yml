@@ -4,6 +4,7 @@ backend:
   name: github
   repo: lkaupp/lkaupp.github.io
   branch: master # Branch to update (optional; defaults to master)
+  site_domain: lkaupp.github.io
 media_folder: 'assets/uploads'
 collections:
   - name: 'blog'
