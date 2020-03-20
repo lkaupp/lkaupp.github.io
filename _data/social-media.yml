@@ -85,3 +85,13 @@ youtube:
   url   : https://www.youtube.com/
   icon  : fab fa-youtube
   color : ff0000
+  
+researchgate:
+  url   : https://www.researchgate.net/profile/
+  icon  : fab fa-researchgate
+  color : 0cb
+  
+orcid:
+  url   : https://orcid.org/
+  icon  : fab fa-orcid
+  color : A6CE39
