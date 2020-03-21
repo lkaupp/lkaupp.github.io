@@ -4,7 +4,7 @@ description         : >-
   Lukas Kaupp is the coordinator of the Research Center of Applied Informatics at Hochschule Darmstadt - University of Applied Sciences. 
   Lately, he joined the Human-Computer Interaction & Visual Analytics Research Group. 
   His current research topics are intelligent (cognitive) cyber-physical systems, artificial intelligence and pattern recognition in sensor networks for industry 4.0.
-baseurl             : "/"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : lkaupp/lkaupp.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : lkaupp/github-io-theme
 
